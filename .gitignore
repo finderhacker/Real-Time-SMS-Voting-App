@@ -26,3 +26,10 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+.codio
+public/stylesheets/bourbon
+public/stylesheets/base
+public/stylesheets/neat
+public/stylesheets/.sass-cache
+*.log
