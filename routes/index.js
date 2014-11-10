@@ -2,11 +2,14 @@ var express = require('express');
 var router = express.Router();
 var ironWorker = require('iron_worker');
 var client = new ironWorker.Client();
+var redis = require('then-redis').createClient(process.env.REDIS_URI);
 
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('index', { title: 'Express' });
+  redis.hgetall('votes').then(function(data){
+    res.render('index', { title: 'Votes' , votes: data});
+  });
 });
 
 /* POST receive SMS */
@@ -16,11 +19,8 @@ router.post('/sms', function(req, res){
 
   client.tasksCreate('vote', {name: name}, {}, function(err, body) {
     console.log(body);
+    res.json(JSON.stringify(body));
   });
-
-  // add a response
-  res.send('');
-
 });
 
 module.exports = router;

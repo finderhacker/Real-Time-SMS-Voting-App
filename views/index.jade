@@ -2,4 +2,16 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  p Live results
+  
+  section(id="charts")
+    ol
+      li
+        strong Lia:&nbsp;
+        span(data-name="lia", data-value=votes.lia)=votes.lia
+      li
+        strong James:&nbsp;
+        span(data-name="james", data-value=votes.james)=votes.james
+      li
+        strong Kara:&nbsp;
+        span(data-name="kara", data-value=votes.kara)=votes.kara

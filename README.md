@@ -12,10 +12,17 @@ Installation
 1. `npm install`
 2. `gem install`
 3. Change the file `.env.example` to `.env`
+4. Configure TelAPI to work with your app. Direct incoming messages to the /sms route.
 
 Upload Worker to iron.io
 ------------
 `cd tasks`
 `iron_worker upload vote`
+
+Start 
+----------
+`foreman start`
+
+When 
 
 http://conpanna.net
