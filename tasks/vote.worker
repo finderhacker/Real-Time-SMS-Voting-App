@@ -1,4 +1,10 @@
 runtime "node"
 name "vote"
-file "config.yml"
+file "vote.js"
+file "config.js"
+file "package.json"
+file "payload_parser.js"
+
+build "npm config set strict-ssl false; npm install --production"
+
 exec "vote.js"
