@@ -38,3 +38,4 @@ public/stylesheets/.sass-cache
 
 .env
 tasks/config.yml
+tasks/iron.json
