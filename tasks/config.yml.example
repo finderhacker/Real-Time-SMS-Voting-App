@@ -1,0 +1,4 @@
+PUSHER_APP_ID=xxxxxxxxxxxx                                                                                                                                               
+PUSHER_KEY=xxxxxxxxxxxx                                                                                                                                                  
+PUSHER_SECRET=xxxxxxxxxxxx
+REDIS_URI=xxxxxxxxxxxx

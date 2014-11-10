@@ -1,3 +1,4 @@
 runtime "node"
 name "vote"
+file "config.yml"
 exec "vote.js"
