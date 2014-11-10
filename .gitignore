@@ -1,3 +1,6 @@
+# File system
+.DS_Store
+
 # Logs
 logs
 *.log
@@ -32,4 +35,5 @@ public/stylesheets/bourbon
 public/stylesheets/base
 public/stylesheets/neat
 public/stylesheets/.sass-cache
-*.log
+
+.env
