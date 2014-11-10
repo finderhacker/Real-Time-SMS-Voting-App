@@ -37,3 +37,4 @@ public/stylesheets/neat
 public/stylesheets/.sass-cache
 
 .env
+tasks/config.yml
