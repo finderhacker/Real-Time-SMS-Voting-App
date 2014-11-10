@@ -1,0 +1,3 @@
+runtime "node"
+name "vote"
+exec "vote.js"
