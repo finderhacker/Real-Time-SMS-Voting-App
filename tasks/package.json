@@ -8,9 +8,6 @@
   "dependencies": {
     "iron_worker": "~0.1.2",
     "then-redis": "~0.3.12",
-    "pusher": "~1.0.2",
-    "node-helper": "0.0.7",
-    "q": "~1.1.1",
-    "request": "~2.47.0"
+    "pusher": "~1.0.2"
   }
 }
