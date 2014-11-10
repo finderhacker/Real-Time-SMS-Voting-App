@@ -1,0 +1,8 @@
+var config = {};
+
+config.PUSHER_APP_ID="xxxxxxxxxxxx";
+config.PUSHER_KEY="xxxxxxxxxxxx";
+config.PUSHER_SECRET="xxxxxxxxxxxx";
+config.REDIS_URI="xxxxxxxxxxxx";
+
+module.exports = config

@@ -37,5 +37,5 @@ public/stylesheets/neat
 public/stylesheets/.sass-cache
 
 .env
-tasks/config.yml
+tasks/config.js
 tasks/iron.json
