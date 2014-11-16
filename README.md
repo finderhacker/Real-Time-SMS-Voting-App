@@ -1,6 +1,6 @@
 Real-Time-SMS-Voting-App
 ========================
-
+![Build](https://travis-ci.org/ConPanna/Real-Time-SMS-Voting-App.svg)
 Example of a real time sms voting web app, using background jobs, sms and push notifications.
 
 !["Real-Time SMS Voting APP"](https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/10385405_837843609611670_6629057078725331984_n.jpg?oh=604e57cef636f292968563e6d016479b&oe=54D5A86E&__gda__=1423024644_1507046d07bef35957e5a9b189fada44 "Real-Time SMS Voting APP")
